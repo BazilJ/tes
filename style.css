@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;          /* Full height for vertical centering */
+    margin: 0;
+}
+body {
+    font-family: Arial,  sans-serif; /* keluarga font */
+    font-size: 11px; /* Ukuran font utama pada tag <p></p> */
+    background-color: #f0f0f0; /* Warna latar belakang laman web */
+    color: #333333; /* Warna teks */ 
+    max-width: 800px;      /* Optional: limit content width */
+    margin: 0 auto;        /* Auto margins center horizontally */
+    text-align: center;    /* Center inline content like text/images */
+}
+h1 {
+    color: #00a800; /* Warna tajuk (header)*/
+    font-size: 24px; /* Ukuran font tajuk (header) */
+    font-family: Georgia, serif; /* Keluarga font yang digunakan di tajuk (header) */
+}
+button {
+    background-color: #007bff; /* Warna latar belakang tombol */
+    color: white; /* Warna teks pada tombol */
+    padding: 10px 20px; /* Padding di dalam tombol */
+    border: none; /* Menghilangkan border default */
+    border-radius: 5px; /* Membuat sudut tombol menjadi melengkung */
+    cursor: pointer; /* Mengubah kursor saat hover di atas tombol */
+}
