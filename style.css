@@ -1,20 +1,20 @@
 html, body {
-    height: 100%;          /* Full height for vertical centering */
+    height: 100%;
     margin: 0;
 }
 body {
-    font-family: Arial,  sans-serif; /* keluarga font */
-    font-size: 11px; /* Ukuran font utama pada tag <p></p> */
-    background-color: #000000; /* Warna latar belakang laman web */
-    color: #ffffff; /* Warna teks */ 
-    max-width: 800px;      /* Optional: limit content width */
-    margin: 0 auto;        /* Auto margins center horizontally */
-    text-align: center;    /* Center inline content like text/images */
+    font-family: Arial,  sans-serif;
+    font-size: 11px;
+    background-color: #000000;
+    color: #ffffff;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
 }
 h1 {
-    color: green; /* Warna tajuk (header)*/
-    font-size: 24px; /* Ukuran font tajuk (header) */
-    font-family: Georgia, serif; /* Keluarga font yang digunakan di tajuk (header) */
+    color: green;
+    font-size: 24px;
+    font-family: Georgia, serif;
 }
 @keyframes color-change { 
     0% { color: green; }
@@ -26,11 +26,17 @@ h1 {
 h1:hover {
     animation: color-change 3s infinite;
 }
+img {
+    width: 200px;
+    height: auto;
+    margin: 20px 0;
+    padding: 50px 10px;
+}
 button {
-    background-color: #007bff; /* Warna latar belakang tombol */
-    color: white; /* Warna teks pada tombol */
-    padding: 10px 20px; /* Padding di dalam tombol */
-    border: none; /* Menghilangkan border default */
-    border-radius: 5px; /* Membuat sudut tombol menjadi melengkung */
-    cursor: pointer; /* Mengubah kursor saat hover di atas tombol */
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
